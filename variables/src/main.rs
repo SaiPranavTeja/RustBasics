@@ -42,6 +42,14 @@ fn main(){
      let _fa:f32 =10.0000000;
      let _fz=30.0; //default chooses f64
   }
+  //
+  {
+    let _fb:bool =true;
+    let mut _fi:u8;
+    //_fi=_fb.clone();
+    _fi =_fb as u8;
+    println!("fi is {}",_fi);
+  }
   // Arthermatic operation +,-, *,/,%
   {
     let mut v1:f32=10.0;
